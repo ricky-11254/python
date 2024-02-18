@@ -1,11 +1,13 @@
 from array import array
+
 class ArrayInput:
     def __init__(self, size):
         self.size = size
         self.my_array = array('i')
+
     def input_values(self):
+        values = input().split()
         for i in range(self.size):
-            value = input().split()
             self.my_array.append(int(value))
 
 size = int(input())

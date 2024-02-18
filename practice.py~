@@ -13,7 +13,5 @@ class Solution:
             self.arr.append(row)
         return self.arr
 
-rows = int(input())
-cols = int(input())
 solution = Solution(rows, cols)
 print(solution.two2_array())

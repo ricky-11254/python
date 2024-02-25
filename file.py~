@@ -1,0 +1,4 @@
+import os
+file = open("C:\Users\ADMIN\lpthw\hello.txt")
+print(file.read())
+file.close()
